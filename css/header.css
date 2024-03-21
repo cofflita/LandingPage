@@ -1,0 +1,28 @@
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+}
+
+.header {
+    background-color: #272727;
+    height: 100px;
+    padding: 0 30px;
+}
+
+.header .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.header ul {
+    display: flex;
+}
+
+.header a {
+    color: white;
+    padding: 10px;
+    margin: 0 10px;
+}
